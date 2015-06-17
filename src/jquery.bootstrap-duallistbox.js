@@ -313,40 +313,38 @@
       } else {
         this.container = $('' +
           '<div class="bootstrap-duallistbox-container row">' +
-          ' <div class="box1 col-md-6">' +
+          ' <div class="box1 col-md-5">' +
           '   <label></label>' +
           '   <span class="info-container">' +
           '     <span class="info"></span>' +
           '     <button type="button" class="clear1 btn pull-right btn-default btn-xs"></button>' +
           '   </span>' +
           '   <input class="filter form-control" type="text">' +
-          '   <div class="btn-group buttons">' +
-          '     <button type="button" class="moveall btn btn-default">' +
-          '       <i class="glyphicon glyphicon-arrow-right"></i>' +
-          '       <i class="glyphicon glyphicon-arrow-right"></i>' +
-          '     </button>' +
-          '     <button type="button" class="move btn btn-default">' +
-          '       <i class="glyphicon glyphicon-arrow-right"></i>' +
-          '     </button>' +
-          '   </div>' +
           '   <select multiple="multiple"></select>' +
           ' </div>' +
-          ' <div class="box2 col-md-6">' +
+          ' <div class="col-md-2 center-block">' +
+          '   <button type="button" class="moveall btn btn-default col-md-8 col-md-offset-2">' +
+          '     <span class="glyphicon glyphicon-list"></span>' +
+          '     <span class="glyphicon glyphicon-chevron-right"></span>' +
+          '   </button>' +
+          '   <button type="button" class="move btn btn-default col-md-8 col-md-offset-2">' +
+          '     <span class="glyphicon glyphicon-chevron-right"></span>' +
+          '   </button>' +
+          '   <button type="button" class="remove btn btn-default col-md-8 col-md-offset-2">' +
+          '     <span class="glyphicon glyphicon-chevron-left"></span>' +
+          '   </button>' +
+          '   <button type="button" class="removeall btn btn-default col-md-8 col-md-offset-2">' +
+          '     <span class="glyphicon glyphicon-chevron-left"></span>' +
+          '     <span class="glyphicon glyphicon-list"></span>' +
+          '   </button>' +
+          ' </div>' +
+          ' <div class="box2 col-md-5">' +
           '   <label></label>' +
           '   <span class="info-container">' +
           '     <span class="info"></span>' +
           '     <button type="button" class="clear2 btn pull-right btn-default btn-xs"></button>' +
           '   </span>' +
           '   <input class="filter form-control" type="text">' +
-          '   <div class="btn-group buttons">' +
-          '     <button type="button" class="remove btn btn-default">' +
-          '       <i class="glyphicon glyphicon-arrow-left"></i>' +
-          '     </button>' +
-          '     <button type="button" class="removeall btn btn-default">' +
-          '       <i class="glyphicon glyphicon-arrow-left"></i>' +
-          '       <i class="glyphicon glyphicon-arrow-left"></i>' +
-          '     </button>' +
-          '   </div>' +
           '   <select multiple="multiple"></select>' +
           ' </div>' +
           '</div>')
